@@ -1,0 +1,8 @@
+Пошук без результату: Optional.empty
+none.get() кинув виняток:
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at ua.duikt.pr7.Exp3Optional.main(Exp3Optional.java:18)
+map(...).orElse("не знайдено") для пошуку без результату: не знайдено
+Пошук за умовою досліду 2: Optional[T-5131 Людина-павук: Навколо всесвіту (2023)]
+map(...).orElse("не знайдено") для наявного: Людина-павук: Навколо всесвіту

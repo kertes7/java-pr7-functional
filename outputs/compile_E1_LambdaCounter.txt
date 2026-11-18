@@ -1,0 +1,4 @@
+errors\E1_LambdaCounter.java:9: error: local variables referenced from a lambda expression must be final or effectively final
+            calls++;                    // зміна локальної змінної всередині лямбди
+            ^
+1 error
