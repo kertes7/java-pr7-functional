@@ -12,7 +12,7 @@ public class Exp1Sort {
         Data.utf8();
         List<Title> base = Data.titles();
 
-        // 1) анонімний клас (7 рядків коду)
+        // 1) анонімний клас (6 рядків коду)
         List<Title> a = new ArrayList<>(base);
         a.sort(new Comparator<Title>() {
             @Override
